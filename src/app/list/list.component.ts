@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
     selector: 'app-list',
@@ -6,5 +6,6 @@ import {Component} from '@angular/core';
 })
 
 export class ListComponent {
-  public title = 'List Component';
+    @Input() title: string = 'Titulo de lista no definida';
+
 }
