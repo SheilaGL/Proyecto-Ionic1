@@ -9,13 +9,13 @@
 <ion-content [fullscreen]="true">
     <ion-header collapse="condense">
         <ion-toolbar>
-            <ion-title size="large">Proyecto Ionic1</ion-title>
+            <ion-title size="large">{{title}}</ion-title>
         </ion-toolbar>
     </ion-header>
 
     <div id="container">
-
-        <app-list title="Lista 1"></app-list>
-
+        <app-list title ="Lista de personas" [list]="list"></app-list>
+        <app-list title ="Lista dentro del Html" [list]="['Pedrito']"></app-list>
+        <app-list [title] ="tituloLista" [list]=""></app-list>
     </div>
 </ion-content>
