@@ -1,5 +1,4 @@
 import {Component, Input} from '@angular/core';
-import index from '@angular/cli/lib/cli';
 
 
 @Component({
