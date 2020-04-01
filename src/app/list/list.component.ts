@@ -7,6 +7,7 @@ import {Component, Input} from '@angular/core';
 })
 export class ListComponent {
     @Input() title: string = 'Titulo de lista no definida';
-    @Input() list: Array<string> = ['No hay ningún elemento en la lista'];
+    @Input() list: Array<string> = [];
+
 }
 

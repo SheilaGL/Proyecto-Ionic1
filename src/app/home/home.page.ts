@@ -15,7 +15,11 @@ export class HomePage {
     ];
 
     public title: string = 'Home';
-    public tituloLista: string = 'Titulo 1234';
+    public readonly tituloLista: string = 'Titulo 1234';
+
+    public name: string = 'Sheila';
+    public age: number = 36;
+    public gender: string = 'mujer';
 
 
     constructor() {

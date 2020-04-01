@@ -1,12 +1,19 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { IonicModule } from '@ionic/angular';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {IonicModule} from '@ionic/angular';
+import {ListComponent} from './list.component';
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule,
-    IonicModule
-  ]
+    declarations: [
+        ListComponent
+    ],
+    exports: [
+        ListComponent
+    ],
+    imports: [
+        CommonModule,
+        IonicModule
+    ]
 })
-export class ListModule { }
+export class ListModule {
+}
