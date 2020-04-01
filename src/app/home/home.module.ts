@@ -6,8 +6,6 @@ import {RouterModule} from '@angular/router';
 
 import {HomePage} from './home.page';
 import {ListModule} from '../list/list.module';
-import {UsuarioModule} from '../usuario/usuario.module';
-
 
 @NgModule({
     declarations: [HomePage],
@@ -22,7 +20,6 @@ import {UsuarioModule} from '../usuario/usuario.module';
                 component: HomePage
             }
         ]),
-        UsuarioModule
     ]
 })
 export class HomePageModule {

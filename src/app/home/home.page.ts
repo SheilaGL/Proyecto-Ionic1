@@ -1,28 +1,26 @@
 import {Component} from '@angular/core';
+import {User} from '../usuario/User';
 
 @Component({
     selector: 'app-home',
-    templateUrl: 'home.page.html',
-    styleUrls: ['home.page.scss'],
+    templateUrl: 'home.page.html'
 })
 export class HomePage {
+    public readonly TITULO_LISTA: string = 'Titulo 1234';
 
-    public list: Array<string> = [
-        'Branko Fuenzalida',
-        'Santi Figueiras',
-        'Sheila Guadiño',
-        'Cristina Romero'
+    public userList: Array<User> = [
+        {
+            name: 'Sheila Guadiño',
+            age: 36,
+            gender: 'female'
+
+        },
+        {
+            name: 'Santi Figueiras',
+            age: 35,
+            gender: 'male'
+
+        }
     ];
-
-    public title: string = 'Home';
-    public readonly tituloLista: string = 'Titulo 1234';
-
-    public name: string = 'Sheila';
-    public age: number = 36;
-    public gender: string = 'mujer';
-
-
-    constructor() {
-    }
 
 }
