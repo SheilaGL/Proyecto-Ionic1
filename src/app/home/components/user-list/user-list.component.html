@@ -1,0 +1,9 @@
+<ion-list>
+    <ion-list-header>
+        <ion-label>{{title}}</ion-label>
+    </ion-list-header>
+    <ion-item *ngIf="list.length === 0 ">No hay ningún elemento en la lista</ion-item>
+    <ion-item *ngFor="let user of list">
+        <app-user [name]="user.name" [age]="user.age"[gender]="user.gender"></app-user>
+    </ion-item>
+</ion-list>
