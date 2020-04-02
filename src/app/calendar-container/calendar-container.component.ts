@@ -1,4 +1,5 @@
 import {Component, Input} from '@angular/core';
+import {DaysOffBalance} from '../calendar/DaysOffBalance';
 
 @Component({
   selector: 'app-calendar-container',
@@ -6,10 +7,6 @@ import {Component, Input} from '@angular/core';
   styleUrls: ['./calendar-container.component.scss'],
 })
 export class CalendarContainerComponent {
-
-@Input() availableDays: number;
-@Input() takenDays: number;
-@Input() approvedDays: number;
-@Input() openingBalance: number;
+@Input() daysOffBalance: DaysOffBalance;
 
 }

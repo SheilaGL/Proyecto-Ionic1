@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {DaysOffBalance} from './calendar';
+import {DaysOffBalance} from './DaysOffBalance';
 
 @Component({
     selector: 'app-calendar',
@@ -14,5 +14,4 @@ export class CalendarPage {
         openingBalance: 30,
         year: 2008
     };
-
 }

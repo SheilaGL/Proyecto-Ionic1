@@ -1,4 +1,5 @@
 import {Component, Input} from '@angular/core';
+import {DaysOffBalance} from '../calendar/DaysOffBalance';
 
 @Component({
     selector: 'app-calendar-data',
@@ -7,8 +8,7 @@ import {Component, Input} from '@angular/core';
 })
 export class CalendarDataComponent {
 
-    @Input() takenDays: number;
-    @Input() approvedDays: number;
-    @Input() openingBalance: number;
+    @Input() daysOffBalance: DaysOffBalance;
+
 
 }

@@ -4,8 +4,7 @@ import {Component, Input} from '@angular/core';
     selector: 'app-calendar-available-days',
     template: `<ion-item>
             {{availableDays}} días disponibles
-        </ion-item>`,
-    styleUrls: ['./calendar-available-days.component.scss'],
+        </ion-item>`
 })
 export class CalendarAvailableDaysComponent {
 
