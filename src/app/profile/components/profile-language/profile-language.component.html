@@ -1,0 +1,7 @@
+<ion-item>
+    <ion-icon name="language" slot="start" class="ion-margin-end"></ion-icon>
+    <ion-label lines="full">{{languageLabel}}</ion-label>
+    <ion-select>
+        <ion-select-option *ngFor="let language of languages" [value]="language">{{language}}</ion-select-option>
+    </ion-select>
+</ion-item>

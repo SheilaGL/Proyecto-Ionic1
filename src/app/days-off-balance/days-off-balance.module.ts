@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
-import {IonicModule} from '@ionic/angular';
 import {CommonModule} from '@angular/common';
+import {IonicModule} from '@ionic/angular';
 
 import {CalendarPageRoutingModule} from './days-off-balance-routing.module';
 import {DaysoffbalancePage} from './days-off-balance.page';

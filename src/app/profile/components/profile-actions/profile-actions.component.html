@@ -1,0 +1,15 @@
+<ion-list class="profile-actions">
+    <app-profile-languages [languages]="languages" [languageLabel]="labels.language"></app-profile-languages>
+    <ion-item detail>
+        <ion-icon name="information-circle" item-start class="ion-margin-end" lines="none"></ion-icon>
+        {{labels.privacyPolicy}}
+    </ion-item>
+    <ion-item detail>
+        <ion-icon name="happy" item-start class="ion-margin-end"></ion-icon>
+        {{labels.aboutDevelopers}}
+    </ion-item>
+    <ion-item routerLink="/home" detail color>
+        <ion-icon name="log-out" item-start class="ion-margin-end"></ion-icon>
+        <span class="link">{{labels.logout}}</span>
+    </ion-item>
+</ion-list>
