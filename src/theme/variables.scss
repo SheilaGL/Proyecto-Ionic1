@@ -3,6 +3,11 @@
 
 /** Custom Syles ***/
 
+ion-card-content .ion-padding-bottom{
+  --padding-bottom: var(--ion-padding, 8px);
+  padding-bottom: var(--ion-padding, 8px);
+}
+
 
 /** Ionic CSS Variables **/
 :root {

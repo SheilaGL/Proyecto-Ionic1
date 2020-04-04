@@ -1,0 +1,14 @@
+.card-content-ios {
+  -webkit-padding-start: 0;
+  padding-inline-start: 0;
+  -webkit-padding-end: 0;
+  padding-inline-end: 0;
+}
+
+$small-text : 13px;
+$small-text-height: 15px;
+
+.small-text {
+  font-size: $small-text;
+  line-height: $small-text-height;
+}
